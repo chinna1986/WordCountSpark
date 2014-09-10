@@ -47,5 +47,6 @@ public class WordCount1 {
         });
 
         System.out.println("Total length " + totalLength);
+        sc.stop();
     }
 }

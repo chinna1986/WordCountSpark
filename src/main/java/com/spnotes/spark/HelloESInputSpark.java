@@ -58,6 +58,7 @@ public class HelloESInputSpark {
         });
 
         cityCount.saveAsTextFile("file:///tmp/sparkes");
+        sc.stop();
 
 
     }

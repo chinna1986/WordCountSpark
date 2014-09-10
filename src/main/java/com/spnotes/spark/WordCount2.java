@@ -67,6 +67,7 @@ public class WordCount2 {
         });
 
         wordCounts.saveAsTextFile(outputPath);
+        sc.stop();
 
     }
 }

@@ -26,5 +26,6 @@ public class WordCount {
             }
         });
         System.out.println("Return value " + returnValue);
+        sc.stop();
     }
 }
